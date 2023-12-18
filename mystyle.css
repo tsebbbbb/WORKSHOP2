@@ -6,7 +6,11 @@ h1{
     font-size: 2cm;
     color: rgb(178, 32, 36);
 }
-
+body {
+    background-image: url("https://png.pngtree.com/background/20211217/original/pngtree-christmas-winter-snow-house-trees-picture-image_1599640.jpg");
+    background-position: center;
+    background-size: cover;
+}
 .coRed{
     color: rgb(162, 162, 81);
 }
