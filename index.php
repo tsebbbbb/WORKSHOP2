@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <style>
         div {
-            width: 300px;
+            width: 500px;
             height: 580px;
             border: 1px solid black;
             overflow: scroll;
