@@ -15,7 +15,7 @@
 </head>
 <center>
 <body>
-    <?php $multi_x = 2; ?>
+    <?php $multi_x = 47; ?>
     <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
     <div> 
         <?php for($i = 1; $i <= 24; $i++) {?>
