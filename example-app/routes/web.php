@@ -17,5 +17,5 @@ Route::get('/', function () {
     return view('welcome'); //welcome.blade.php
 });
 Route::get('/my-route',function(){
-    echo "<h1>My Route Page</h1>";
+    return view('myroute');
 });
