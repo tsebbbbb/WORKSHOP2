@@ -4,6 +4,7 @@
     </head>
     <body>
         <h1><?php echo"Hello World<br><br>" ?></h1>
-        <?php echo "<h1>Hello World<br><br>"
+        <?php echo "<h1>Hello World<br><br></h1>" ?>
+         
     </body>
 </html>
