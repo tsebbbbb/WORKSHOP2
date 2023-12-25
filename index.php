@@ -2,6 +2,7 @@
      
 
 <head >
+<body style = 'background-color : garnet'>
     <meta charset="utf-8">
     <style>
         div {
