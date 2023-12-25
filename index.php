@@ -11,6 +11,11 @@
             border: 1px solid black;
             overflow: scroll;
             }
+        body {
+             background-image:url('https://i.pinimg.com/736x/de/3c/cb/de3ccb582c2ff2764775f34d063443ba.jpg');
+             background-repeat: no-repeat;
+             background-size: cover;
+             }
     </style>
 </head>
 <center>
