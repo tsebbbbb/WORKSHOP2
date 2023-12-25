@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <style>
         div {
-            width: 200px;
-            height: 380px;
+            width: 300px;
+            height: 580px;
             border: 1px solid black;
             overflow: scroll;
             }
