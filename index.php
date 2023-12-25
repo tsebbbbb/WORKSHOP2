@@ -2,7 +2,7 @@
      
 
 <head >
-<body style = 'background-color : garnet'>
+<body style = 'background-color : oat'>
     <meta charset="utf-8">
     <style>
         div {
