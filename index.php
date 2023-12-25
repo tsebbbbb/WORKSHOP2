@@ -1,7 +1,7 @@
 <html>
      
-
 <head >
+    <link rel="stylesheet" href = "style.css">
 <body style = 'background-color :pink'>
     <meta charset="utf-8">
     <style>
@@ -15,6 +15,7 @@
              background-image:url('https://i.pinimg.com/736x/de/3c/cb/de3ccb582c2ff2764775f34d063443ba.jpg');
              background-repeat: no-repeat;
              background-size: cover;
+
              }
     </style>
 </head>
