@@ -78,6 +78,18 @@
                 </div>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox">
+                    <label class="form-check-label">สากล </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox">
+                    <label class="form-check-label">ป๊อป </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox">
+                    <label class="form-check-label">ร็อค </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox">
                     <label class="form-check-label">อื่น ๆ </label>
                 </div>
             </div>
