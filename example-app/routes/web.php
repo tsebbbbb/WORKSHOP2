@@ -18,13 +18,13 @@ use App\Http\Controllers\ControllerForm;
 Route::resource('titles', C_titles::class);
 
 Route::get('/my-controller',[MyController::class,'index']);
-Route::get('/my-controller2','App\Htpp\Controllers\MtController@index');
+// Route::get('/my-controller2','App\Htpp\Controllers\MtController@index');
 
-Route::namespace('App\Htpp\Controllers')->group(function(){
-    Route::get('\my-controller3','MyController@index');
-});
+// Route::namespace('App\Htpp\Controllers')->group(function(){
+//     Route::get('\my-controller3','MyController@index');
+// });
 
-Route::resource('/my-controller4','MyController');
+// Route::resource('/my-controller4','MyController');
 
 Route::get('/my-route',function(){
     $data=['val_a' => 'Hello World!'];
@@ -40,4 +40,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/form', [ControllerForm::class,'index'] );
+// Route::get('/form', [ControllerForm::class,'index'] );
