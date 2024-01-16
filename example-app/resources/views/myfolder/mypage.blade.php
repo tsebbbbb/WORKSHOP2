@@ -23,8 +23,9 @@
 
 <body>
     <div align="center">
+
     <h1>Multiplication table</h1>
-    <form method="post" action="/my-route">
+    <form method="post" action="/my-controller3">
         @csrf
         <input type="text" name="myinput" style="width:250px; height:120; font-size:20px;">
         <button type="submit"style="width:80px; height:40; font-size:14px;">Submit</button>
