@@ -183,19 +183,16 @@
                     <div class="info">
                         <a href="#" class="d-block">Kusama Naewdong</a>
                     </div>
+                        {{-- <a href="logout" class="btn btn-sm" style="background-color:rgb(255, 77, 46); color:white;" >
+                            <i class="fas fa-sign-out-alt">
+
+                            </i> --}}
+
+                            </a>
+                    </ul>
                 </div>
 
-                <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
-                        data-accordion="false">
-                        <li class="nav-item menu-open">
-                            <a href="logout" class="nav-link active" style="background-color:rgb(255, 77, 46)">
-                                <i class="fas fa-sign-out-alt"></i>
-                                <p>
-                                    Log Out
 
-                                </p>
-                            </a>
                 <!-- SidebarSearch Form -->
                 <div class="form-inline">
                     <div class="input-group" data-widget="sidebar-search">
@@ -247,6 +244,14 @@
                                 </p>
                             </a>
                         </li>
+                        <li class="nav-item menu-open">
+                            <a href="logout" class="nav-link active" style="background-color:rgb(255, 77, 46)">
+                                <i class="fas fa-sign-out-alt"></i>
+                                <p>
+                                    Log Out
+
+                                </p>
+                            </a>
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->

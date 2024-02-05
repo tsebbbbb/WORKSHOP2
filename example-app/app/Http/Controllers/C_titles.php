@@ -33,7 +33,7 @@ class C_titles extends Controller
         //
         $tit_name = $request->input('tit_name');
         $tit_is_active = $request->input('tit_is_active');
-        if($tit_is_active = "on"){
+        if($tit_is_active == "on"){
             $tit_is_active = 1;
         }else{
             $tit_is_active = 0;
@@ -42,10 +42,9 @@ class C_titles extends Controller
         $m_titles->tit_name = $tit_name;
         $m_titles->tit_is_active = $tit_is_active;
         $m_titles->save();
-        // use Illuminate\Support\Facades\Redirect
-        return Redirect('/titles');
-    }
 
+        return Redirect::to('/titles');
+    }
 
     /**
      * Display the specified resource.
@@ -71,9 +70,10 @@ class C_titles extends Controller
      */
     public function update(Request $request, string $id)
     {
+        //
         $tit_name = $request->input('tit_name');
         $tit_is_active = $request->input('tit_is_active');
-        if($tit_is_active = "on"){
+        if($tit_is_active == "on"){
             $tit_is_active = 1;
         }else{
             $tit_is_active = 0;
@@ -82,7 +82,8 @@ class C_titles extends Controller
         $m_titles->tit_name = $tit_name;
         $m_titles->tit_is_active = $tit_is_active;
         $m_titles->save();
-        return Redirect('/titles');
+        // use Illuminate\Support\Facades\Redirect
+        return Redirect::to('/titles');
     }
 
     /**
@@ -90,8 +91,9 @@ class C_titles extends Controller
      */
     public function destroy(string $id)
     {
-        $m_titles = M_titles::find($id);
-        $m_titles->delete();
+        $data = M_titles::find($id);
+        $data->delete();
+
         return Redirect::to('/titles');
     }
 }
