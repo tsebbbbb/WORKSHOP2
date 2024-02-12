@@ -99,4 +99,5 @@ class C_titles extends Controller
          $m_titles->delete();
           return Redirect::to('/titles');
     }
+    
 }

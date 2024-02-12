@@ -97,7 +97,7 @@
                                                 @csrf
                                                 @method('DELETE')
                                                 <button type="submit" class="btn btn-danger">ลบ</button>
-                                                @yield('js')
+                                                {{-- @yield('js')
                                                  <script>
                                                  function deleteme(id) {
                                                     Swal.fire({
@@ -126,7 +126,7 @@
                                                             });
                                                         }
                                                     });
-                                                }
+                                                } --}}
                                                 </script>
                                             </form>
                                         </td>
