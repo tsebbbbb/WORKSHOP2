@@ -6,7 +6,7 @@
     <div>
         <h1 class="text text-center">ตารางแม่สูตรคูณ</h1>
         <div class="text text-center">
-            <input type="number" id="my_number" value="10" class="text text-center">
+            <input type="number" id="my_number" value="15" class="text text-center">
             <br><br>
             <button onclick="myFunction()" class="btn btn-outline-success">submit</button>
         </div>
