@@ -97,6 +97,37 @@
                                                 @csrf
                                                 @method('DELETE')
                                                 <button type="submit" class="btn btn-danger">ลบ</button>
+                                                @yield('js')
+                                                 <script>
+                                                 function deleteme(id) {
+                                                    Swal.fire({
+                                                        title: "Are you sure?",
+                                                        text: "You won't be able to revert this!",
+                                                        icon: "warning",    showCancelButton: true,
+                                                        confirmButtonColor: "#3085d6",
+                                                        cancelButtonColor: "#d33",
+                                                        confirmButtonText: "Yes, delete it!"
+                                                    }).then((result) => {
+                                                        if (result.isConfirmed) {
+                                                            $.ajax({
+                                                                method: "POST",
+                                                                url: "/titles/" + id,
+                                                                data: {
+                                                                    _token: "{{ csrf_token() }}",
+                                                                    _method: "DELETE"
+                                                                }
+                                                            })
+                                                            .done(function() {
+                                                                Swal.fire({
+                                                                    title: "Deleted!",
+                                                                    text: "Your file has been deleted.",
+                                                                    icon: "success"
+                                                                });
+                                                            });
+                                                        }
+                                                    });
+                                                }
+                                                </script>
                                             </form>
                                         </td>
                                     </tr>
